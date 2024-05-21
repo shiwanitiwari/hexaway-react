@@ -1,0 +1,122 @@
+{
+    "welcome" : {
+            "process1" : {
+                "name" : "About Hexaware"
+            },
+            "process2" : {
+                "name" : "Chat-bot Tips"
+            },
+            "process3" : {
+                "name" : "Helpline"
+            },
+            "process4" : {
+                "name" : "Offer Letter"
+            },
+            "process5" : {
+                "name" : "Date of joining"
+            },
+            "process6" : {
+                "name" : "Documents List"
+            }
+    }, 
+
+    "preonboarding" : {
+        "process7" : {
+            "name" : "Personal Information"
+        },
+        "process8" : {
+            "name" : "Mandatory Documents Upload for Entry-level hires"
+        },
+        "process9" : {
+            "name" : "Mandatory Documents Upload for Mid-level hires"
+        },
+        "process10" : {
+            "name" : "Mandatory Documents Upload for Senior-level hires"
+        },
+        "process11" : {
+            "name" : "First-Day Breifing for Entry-level hires"
+        },
+        "process12" : {
+            "name" : "First-Day Breifing for Mid-level hires"
+        },
+        "process13" : {
+            "name" : "First-Day Breifing for Senior-level hires"
+        },
+        "process14" : {
+            "name" : "First-Day checklist for entry level candidates"
+        },
+        "process15" : {
+            "name" : "First-Day checklist for mid level candidates"
+        },
+        "process16" : {
+            "name" : "First-Day checklist for senior level candidates"
+        }
+
+    },
+
+    "onboarding" : {
+        "process17" : {
+            "name" : "Report @ Hexaware"
+        },
+        "process18" : {
+            "name" : "Welcome call for entry level hires"
+        },
+        "process19" : {
+            "name" : "HR Orientation for mid level hires"
+        },
+        "process20" : {
+            "name" : "HR Orientation for senior level hires"
+        },
+        "process21" : {
+            "name" : "NDA form signing"
+        },
+        "process22" : {
+            "name" : "Nomination form signing"
+        },
+        "process23" : {
+            "name" : "Bank session for salary account"
+        },
+        "process24" : {
+            "name" : "Laptop/Asset Collection"
+        },
+        "process25" : {
+            "name" : "Employee Id creation"
+        },
+        "process26" : {
+            "name" : "E-mail creation"
+        }
+
+    },
+
+    "postonboarding" : {
+        "process27" : {
+            "name" : "Station-h password reset"
+        },
+        "process28" : {
+            "name" : "Office-365 password reset"
+        }
+
+
+    },
+
+    "nextsteps" : {
+        "process29" : {
+            "name" : "Mandatory courses for technical roles"
+        },
+        "process30" : {
+            "name" : "Mandatory courses for non-technical roles"
+        },
+        "process31" : {
+            "name" : "Mandatory courses for leadership roles"
+        },
+        "process32" : {
+            "name" : "Station-h tutorial"
+        },
+        "process33" : {
+            "name" : "Security & Compliance information"
+        },
+        "process34" : {
+            "name" : "Tech Support Information"
+        }
+    }
+}
