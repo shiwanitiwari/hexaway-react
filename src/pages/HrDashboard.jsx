@@ -17,8 +17,8 @@ export default function HrDashboard(){
         const[lastName,setLastName] = useState("");
         const[email,setEmail] = useState("");
         const[password,setPassword] = useState("");
-        const[designation,setDesignation] = useState("");
-        const[experience,setExperience] = useState("");
+        const[designation,setDesignation] = useState("ASE");
+        const[experience,setExperience] = useState("entry");
         let [welcomesteps,setWelcomeSteps] = useState([]);
         let [preonboardingsteps,setPreonboardingSteps] = useState([]);
         let [onboardingsteps,setOnboardingSteps] = useState([]);
