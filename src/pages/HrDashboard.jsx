@@ -17,14 +17,21 @@ export default function HrDashboard(){
         const[lastName,setLastName] = useState("");
         const[email,setEmail] = useState("");
         const[password,setPassword] = useState("");
-        const[designation,setDesignation] = useState("ASE");
+        const[designation,setDesignation] = useState("technical");
         const[experience,setExperience] = useState("entry");
         let [welcomesteps,setWelcomeSteps] = useState([]);
         let [preonboardingsteps,setPreonboardingSteps] = useState([]);
         let [onboardingsteps,setOnboardingSteps] = useState([]);
         let [postonboardingsteps,setPostOnboardingSteps] = useState([]);
         let [nextstepssteps,setNextstepssteps] = useState([]);
-
+        function sDesignation(e){
+            console.log(e.target.value);
+            setDesignation(e.target.value);
+        }
+        function sExperience(e){
+            console.log(e.target.value);
+            setExperience(e.target.value);
+        }
 
         async function register(){
             setEnroll(1);
@@ -118,14 +125,14 @@ export default function HrDashboard(){
                         <input className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4"  type="text" name="" id="" placeholder="Last Name" onChange={e=>setLastName(e.target.value)}/>
                         <input className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" type="text" name="" id="" placeholder="Email" onChange={e=>setEmail(e.target.value)}/>
                         <input className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" type="password" name="" id="" placeholder="Password" onChange={e=>setPassword(e.target.value)}/>
-                        <select className=" bg-transparent border-solid border-2 border-black-300 rounded-xl  px-4 py-2 mb-4" name="Designation" id="" onChange={e=>setDesignation(e.target.value)} >
+                        <select value={designation} className=" bg-transparent border-solid border-2 border-black-300 rounded-xl  px-4 py-2 mb-4" name="Designation" id="" onChange={e=>sDesignation(e)} >
                             <option className="text-black" value="technical">Associate Software Engineer</option>
                             <option className="text-black" value="technical">Graduate Engineer Trainee</option>
                             <option className="text-black" value="technical">Premier Graduate Engineer Trainee</option>
                             <option className="text-black" value="non-technical">HR Recruiter</option>
                             <option className="text-black" value="leadership">Project Manager</option>
                         </select>
-                        <select className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" name="" id="" onChange={e=>setExperience(e.target.value)}>
+                        <select value={experience} className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" name="" id="" onChange={e=>sExperience(e)}>
                             <option className="text-black" value="entry">Entry</option>
                             <option className="text-black" value="mid">Mid</option>
                             <option className="text-black" value="senior">Senior</option>
