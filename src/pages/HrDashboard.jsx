@@ -12,7 +12,7 @@ import AddTaskIcon from '@mui/icons-material/AddTask';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 export default function HrDashboard(){
         const[enroll,setEnroll] = useState(0);
-
+        console.log("working");
         const[firstName,setFirstName] = useState("");
         const[lastName,setLastName] = useState("");
         const[email,setEmail] = useState("");
