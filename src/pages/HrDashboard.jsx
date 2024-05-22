@@ -126,9 +126,8 @@ export default function HrDashboard(){
                         <input className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" type="text" name="" id="" placeholder="Email" onChange={e=>setEmail(e.target.value)}/>
                         <input className=" bg-transparent border-solid border-2 border-black-300 rounded-xl px-4 py-2 mb-4" type="password" name="" id="" placeholder="Password" onChange={e=>setPassword(e.target.value)}/>
                         <select value={designation} className=" bg-transparent border-solid border-2 border-black-300 rounded-xl  px-4 py-2 mb-4" name="Designation" id="" onChange={e=>sDesignation(e)} >
-                            <option className="text-black" value="technical">Associate Software Engineer</option>
                             <option className="text-black" value="technical">Graduate Engineer Trainee</option>
-                            <option className="text-black" value="technical">Premier Graduate Engineer Trainee</option>
+
                             <option className="text-black" value="non-technical">HR Recruiter</option>
                             <option className="text-black" value="leadership">Project Manager</option>
                         </select>
