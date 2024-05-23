@@ -152,8 +152,8 @@ export default function PreOnboarding(){
         <li>Address Proof (e.g., Utility Bill, Rent Agreement)</li>
     </ul>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -161,8 +161,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -170,8 +170,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -214,8 +214,8 @@ export default function PreOnboarding(){
         <li>Address Proof (Utility Bill, Rent Agreement)</li>
     </ul>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -223,8 +223,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -232,8 +232,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -278,8 +278,8 @@ export default function PreOnboarding(){
         <li>Address Proof (Utility Bill, Rent Agreement)</li>
     </ul>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -287,8 +287,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -296,8 +296,8 @@ export default function PreOnboarding(){
         <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
     </div>
     <div class="w-full max-w-xs my-2">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
-        <input
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume <b class="text-red-600">*</b></label>
+        <input required
             id="aadhar-card"
             type="file"
             class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
