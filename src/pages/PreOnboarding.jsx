@@ -151,7 +151,33 @@ export default function PreOnboarding(){
         <li>Offer Letter/Job Confirmation Letter</li>
         <li>Address Proof (e.g., Utility Bill, Rent Agreement)</li>
     </ul>
-
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Resume in PDF format.</p>
+    </div>
     <div class="mb-4">
         <p class="text-sm text-gray-700">Please ensure that all documents are clear, valid, and in PDF or image format for upload.</p>
     </div>
@@ -159,7 +185,7 @@ export default function PreOnboarding(){
     <div class="mb-4">
         <p class="text-sm text-gray-700">If you have any questions or need assistance with document preparation, feel free to reach out to our HR team.</p>
     </div>
-                                    <div className="px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process8")}}>Complete</div>
+                                    <div className="my-5 px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process8")}}>Complete</div>
                         </div>
 
 
@@ -187,7 +213,33 @@ export default function PreOnboarding(){
         <li>Offer Letter/Job Confirmation Letter</li>
         <li>Address Proof (Utility Bill, Rent Agreement)</li>
     </ul>
-
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Resume in PDF format.</p>
+    </div>
     <div class="mb-4">
         <p class="text-sm text-gray-700">Ensure all documents are clear, valid, and saved in PDF or image format for upload.</p>
     </div>
@@ -195,7 +247,7 @@ export default function PreOnboarding(){
     <div class="mb-4">
         <p class="text-sm text-gray-700">Feel free to reach out to our HR team if you have any questions or need assistance with document preparation.</p>
     </div>
-                                    <div className="px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process9")}}>Complete</div>
+                                    <div className="my-5 px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process9")}}>Complete</div>
                         </div>
 
 
@@ -225,7 +277,33 @@ export default function PreOnboarding(){
         <li>Professional Certifications (if any)</li>
         <li>Address Proof (Utility Bill, Rent Agreement)</li>
     </ul>
-
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Aadhar Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Aadhar Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">PAN Card</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your PAN Card in PDF or image format.</p>
+    </div>
+    <div class="w-full max-w-xs my-2">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="aadhar-card">Resume</label>
+        <input
+            id="aadhar-card"
+            type="file"
+            class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        />
+        <p class="mt-1 text-sm text-gray-500" id="file_input_help">Upload your Resume in PDF format.</p>
+    </div>
     <div class="mb-4">
         <p class="text-sm text-gray-700">Ensure all documents are clear, valid, and saved in PDF or image format for upload.</p>
     </div>
@@ -233,7 +311,7 @@ export default function PreOnboarding(){
     <div class="mb-4">
         <p class="text-sm text-gray-700">Feel free to contact our HR team if you have any questions or need assistance with document preparation.</p>
     </div>
-                                    <div className="px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process10")}}>Complete</div>
+                                    <div className="my-5 px-4 py-2 mt-4 border-solid rounded-xl border-slate-600 border-2 text-slate-600 cursor-pointer" onClick={()=>{processit("process10")}}>Complete</div>
                         </div>
 
 
